@@ -1,5 +1,6 @@
-for x in range(30): #0~29
-    print(x)
+i = 0;
+for x in range(i): #0~29
+    print(i)
 
 
 foods = ["된장찌개","피자","제육볶음"]
