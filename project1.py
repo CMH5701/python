@@ -9,7 +9,7 @@ lunch = ["학식", "토마토", "맷돌", "배달","우가본"]
 while True:
     print(lunch)
     item = input("음식을 추가 해주세요 : ")
-    if(item == "q"):
+    if(item == "back"):
         print("메뉴")
         break
     else:
@@ -18,7 +18,7 @@ set_lunch = set(lunch)#원소를 집합으로 변경
 while True:
     print(set_lunch)
     item = input("음식을 삭제해주세요 : ")
-    if(item == "q"):
+    if(item == "back"):
         break
     else:
         set_lunch = set_lunch - set([item])#리스트로 변경후[] 집합으로 변경()와 set추가
